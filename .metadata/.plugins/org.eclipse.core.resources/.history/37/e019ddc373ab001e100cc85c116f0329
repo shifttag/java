@@ -94,6 +94,19 @@ public class Git {
 		// >> 원격 리포지토리에서 파일 당겨오기
 		// : git pull origin main
 		
+		// 중첩 for문을 사용하여
+		// *
+		// **
+		// ***
+		// ****
+		// *****
+		
+		for(int i = 0 ; i < 5 ; i ++) {
+			for(int j = 0; j < i ; j++) {
+				System.out.print("");
+			}
+			System.out.print("*");
+		}
 	}
 
 }

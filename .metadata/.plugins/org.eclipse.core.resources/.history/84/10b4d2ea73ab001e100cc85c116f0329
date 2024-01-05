@@ -40,33 +40,8 @@ public class E_NestedLoop {
 			System.out.println();
 		}
 		
-		// 중첩 for문을 사용하여
-		// *
-		// **
-		// ***
-		// ****
-		// *****
-		System.out.println("별 찍기 예제");
-		for(int i = 1 ; i <= 5 ; i ++) {
-			for(int j = 0; j < i ; j++) {
-				System.out.print("*");
-			}
-			System.out.println("");
-		}
-		// 별 찍기 연습문제
-		// 1.
-		// *****
-		// ****
-		// ***
-		// **
-		// *
 		
-		// 2. 
-		//   *  
-		//  *** 
-		// *****
-		//  ***  \\ 여기는 해도되고 안해도되고
-		//   *   \\ 여기는 해도되고 안해도되고
+		
 	}
 
 }
