@@ -1,6 +1,6 @@
-package a_basic;
+package c_Chapter02;
 
-public class A_HelloJava {
+public class C_For {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
