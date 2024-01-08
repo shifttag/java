@@ -46,7 +46,7 @@ public class E_NestedLoop {
 		// ***
 		// ****
 		// *****
-		System.out.println("별 찍기 예제");
+		System.out.println("별 찍기 예제 1");
 		for(int i = 1 ; i <= 5 ; i ++) {
 			for(int j = 0; j < i ; j++) {
 				System.out.print("*");
@@ -60,13 +60,29 @@ public class E_NestedLoop {
 		// ***
 		// **
 		// *
+		System.out.println("별 찍기 예제 2");
+		for(int i = 0 ; i < 5 ; i ++) {
+			for(int j = 5; j > i ; j--) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
 		
 		// 2. 
 		//   *  
 		//  *** 
 		// *****
-		//  ***  \\ 여기는 해도되고 안해도되고
-		//   *   \\ 여기는 해도되고 안해도되고
+		System.out.println("별 찍기 예제 3");
+		for(int i = 1; i <= 3 ; i++) {
+			for(int j = 3; j > i ; j--) {
+				System.out.print(" ");
+			}
+			for(int k = 0; k < (2*i)-1 ; k++ ) {
+				System.out.print("*");
+			}
+			System.out.println("");
+			
+		}
 	}
 
 }
