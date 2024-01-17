@@ -71,7 +71,7 @@ public class Git {
 		// d. 커밋(commit)
 		// : 변경 사항을 리포지토리에 기록하기 위한 명령어
 		// git commit -m "커밋메시지 - 코드에대한 설명"
-		// git commit -m "20240104 jajva"
+		// git commit -m "20240104 java"
 		
 		// e. 코드 푸시 (push)
 		// : 로컬 리포지토리에서 변경사항을 원격 리포지토리에 저장

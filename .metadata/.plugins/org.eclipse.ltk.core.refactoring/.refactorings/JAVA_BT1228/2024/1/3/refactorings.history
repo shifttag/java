@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;j_Chapter09.B_Ploymorphism&apos; to &apos;B_Polymorphism&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_BT1228&apos;&#x0D;&#x0A;- Original element: &apos;j_Chapter09.B_Ploymorphism&apos;&#x0D;&#x0A;- Renamed element: &apos;j_Chapter09.B_Polymorphism&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;B_Ploymorphism&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;j_Chapter09{B_Ploymorphism.java[B_Ploymorphism" matchStrategy="1" name="B_Polymorphism" qualified="false" references="true" similarDeclarations="false" stamp="1705457450501" textual="false" version="1.0"/>
+</session>
