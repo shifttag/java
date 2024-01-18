@@ -15,5 +15,14 @@
     <fullyQualifiedTypeName name="g_Chapter06.BaseballPlayer"/>
     <fullyQualifiedTypeName name="j_Chapter09.Dog"/>
     <fullyQualifiedTypeName name="j_Chapter09.Vehicle"/>
+    <fullyQualifiedTypeName name="j_Chapter09.AnimalChecker"/>
+    <fullyQualifiedTypeName name="java.net.InterfaceAddress"/>
+    <fullyQualifiedTypeName name="k_Chapter10.B_Interface"/>
+    <fullyQualifiedTypeName name="k_Chapter10.PlayingCard"/>
+    <fullyQualifiedTypeName name="k_Chapter10.ExampleClass"/>
+    <fullyQualifiedTypeName name="k_Chapter10.ExampleInterface"/>
+    <fullyQualifiedTypeName name="k_Chapter10.ExampleInterface2"/>
+    <fullyQualifiedTypeName name="k_Chapter10.Fruit"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="k_Chapter10.MobileApp"/>
 </qualifiedTypeNameHistroy>
