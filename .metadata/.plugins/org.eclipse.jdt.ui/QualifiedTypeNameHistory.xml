@@ -25,4 +25,17 @@
     <fullyQualifiedTypeName name="k_Chapter10.Fruit"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="k_Chapter10.MobileApp"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Order"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Order.OrderDetail"/>
+    <fullyQualifiedTypeName name="l_Chapter11.PocketBall"/>
+    <fullyQualifiedTypeName name="l_Chapter11.PocketBall.PocketMonster"/>
+    <fullyQualifiedTypeName name="l_Chapter11.House.Furniture"/>
+    <fullyQualifiedTypeName name="l_Chapter11.City.CityPlan"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Restaurant"/>
+    <fullyQualifiedTypeName name="SpecialMenu"/>
+    <fullyQualifiedTypeName name="l_Chapter11.OnlineShoppingMall"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Animal"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Animal.Heart"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Car.Engine"/>
 </qualifiedTypeNameHistroy>
