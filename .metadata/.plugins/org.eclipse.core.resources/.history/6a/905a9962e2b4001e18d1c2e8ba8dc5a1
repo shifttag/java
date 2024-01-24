@@ -1,8 +1,0 @@
-package j_Chapter09;
-
-// 다형성
-public class Z_Practice01 {
-	public static void main(String[] args) {
-		
-	}
-}

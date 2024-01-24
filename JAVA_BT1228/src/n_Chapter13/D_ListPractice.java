@@ -23,13 +23,23 @@ class EventManagement{
 	LinkedList<String> waitingQueue = new LinkedList<>();
 	
 	// 참가자 명단에 참가자 추가
+	void addParticipant(String name) {
+		participantList.add(name);
+	}
+	
+	// 대기열에 참가자 추가
 	void addToWaitingQueue(String name) {
 		waitingQueue.add(name);
 	}
 	
 	// 참가자가 이벤트를 떠날 때
 	void leaveParticipant(String name) {
-		
+		// 대기열의 요소의 수가 0보다 클 때(대기열에 명단이 존재할 때)
+		if(waitingQueue.size() > 0) {
+			// 대기열 명단에서 >> 참가자 명단에 인원 추가
+			String nextParticipant = waitingQueue.remove(0);
+			addParticipant(nextParticipant);
+		}
 	}
 	
 	// 특정 참가자 조회
@@ -40,5 +50,30 @@ class EventManagement{
 
 
 public class D_ListPractice {
-
+	public static void main(String[] args) {
+		EventManagement event = new EventManagement();
+		
+		// 참가자 명단에 참가자 추가
+		event.addParticipant("LSA");
+		event.addParticipant("LDK");
+		event.addParticipant("LJH");
+		
+		// 대기열에 참가자 추가
+		event.addToWaitingQueue("SJH");
+		event.addToWaitingQueue("KJI");
+		
+		// 참가자 이벤트를 떠날 때
+		event.leaveParticipant("LSA");
+		
+		// 특정 참가자 조회
+		boolean isLDKParticipating = event.checkParticipant("LDK");
+		boolean isSJHParticipating = event.checkParticipant("SJH");
+		boolean isLSAParticipating = event.checkParticipant("SJH");
+		boolean isKJIParticipating = event.checkParticipant("KJI");
+	
+		System.out.println(isLDKParticipating);	// true
+		System.out.println(isSJHParticipating);	// true
+		System.out.println(isLSAParticipating);	// true
+		System.out.println(isKJIParticipating);	// true
+	}
 }
