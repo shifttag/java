@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.desktop.AppHiddenEvent"/>
-    <fullyQualifiedTypeName name="java.nio.channels.AsynchronousCloseException"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.sql.Array"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="g_Chapter06.Calculator"/>
-    <fullyQualifiedTypeName name="g_Chapter06.Example"/>
     <fullyQualifiedTypeName name="g_Chapter06.Operator"/>
     <fullyQualifiedTypeName name="g_Chapter06.Restaurant"/>
     <fullyQualifiedTypeName name="g_Chapter06.BaseballPlayer"/>
@@ -36,9 +29,6 @@
     <fullyQualifiedTypeName name="l_Chapter11.Car.Engine"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="m_Chapter12.CustomException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="m_Chapter12.MyClass"/>
@@ -51,13 +41,23 @@
     <fullyQualifiedTypeName name="n_Chapter13.EventManagement"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="o_Chapter14.model.Book"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="o_Chapter14.controller.BookController"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="o_Chapter14.view.BookView"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="q_Chapter16.model.OrderModel"/>
+    <fullyQualifiedTypeName name="q_Chapter16.view.OrderView"/>
+    <fullyQualifiedTypeName name="q_Chapter16.controller.OrderController"/>
 </qualifiedTypeNameHistroy>
